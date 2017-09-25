@@ -2,6 +2,24 @@ public class NovoContato {
     
     private String nome;
     private String numero;
+    private String email;
+    private String grupo;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(String grupo) {
+        this.grupo = grupo;
+    }
     
     public NovoContato(){
         System.out.println("Novo contato criado");
